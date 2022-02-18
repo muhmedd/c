@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Kufam:wght@700&family=Tajawal:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Tajawal", sans-serif;
+  background: #d9e2ec;
+  overflow-x: hidden;
+}
+h1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    color: #f0f4f8;
+  }
+  
+  h1 span {
+    color: #27ab83;
+  }
+  h2 {
+    color: #243b53;
+    font-size: 3.4rem;
+    margin-bottom: 1rem;
+  }
+  h3 {
+    color: #2b4561;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    }    
+    h4 {
+        font-size: 2rem;
+        width: 40%;
+        line-height: 1.8;
+        margin-bottom: 2rem;
+        color: #d5d5d5;
+      }
+      p {
+        font-size: 1.6rem;
+        color: #345375;
+        line-height: 2;
+      }
+      /* Nav Section */
+.nav-container {
+    background: #334e68;
+    color: #f0f4f8;
+  }
+  nav {
+    width: 90%;
+    max-width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+    font-size: 1.6rem;
+  }
+  nav .logo {
+    font-family: "Kufam", cursive;
+    font-weight: bold;
+    flex: 2;
+    color: #f0f4f8;
+  }
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    flex: 2;
+  }
+  nav ul li a {
+    color: #f0f4f8;
+    text-decoration: none;
+  }
+  /* Hero Section */
+
+.hero {
+    height: 90vh;
+    position: relative;
+  }
+  .hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    right: 0;
+    background-image: linear-gradient(
+      90deg,
+      rgba(51, 78, 104, 0.2) 0%,
+      rgba(20, 63, 92, 0.8) 20%
+    ),
+    url("./تنزيل\ \(1\).jpg")
+}
+      
